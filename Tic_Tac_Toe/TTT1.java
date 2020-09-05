@@ -38,7 +38,7 @@ reset.addActionListener(this);
 public void check(int num1){
 for(ii=0;ii<=7;ii++){
    for(jj=1;jj<=3;jj++){
-        if(a[ii][jj]==num1){ a[ii][4]=1;  }
+        if(a[ii][jj]==num1){  a[ii][0]=0; a[ii][4]=1; }
 
    }
 
@@ -235,7 +235,6 @@ public static void main(String []args){
 TTT1 t = new TTT1();
 }//eof main
 }//eof class
-
 
 
 
